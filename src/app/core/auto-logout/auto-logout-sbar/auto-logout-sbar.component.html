@@ -1,0 +1,17 @@
+<div class="sbar-container">
+  <span class="sbar-label">Session inactive, déconnexion dans </span>
+  <div class="counter-container">
+    <mat-progress-spinner
+      [value]="(remainSeconds / counterSeconds) * 100"
+      [color]="'warn'"
+      [diameter]="progressSpinnerDiameter"
+    ></mat-progress-spinner>
+    <div
+      class="counter-txt-indicator"
+      [style.width]="progressSpinnerDiameter + 'px'"
+      [style.height]="progressSpinnerDiameter + 'px'"
+    >
+      <span>{{ remainSeconds }}</span>
+    </div>
+  </div>
+</div>

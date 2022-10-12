@@ -1,0 +1,22 @@
+.sbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sbar-label {
+  margin-right: 8px;
+}
+
+.counter-container {
+  position: relative;
+}
+
+.counter-txt-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
